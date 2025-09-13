@@ -37,7 +37,7 @@ void calculateInInterval()
 	cin >> n;
 
 	if (n <= 0) {
-		std::cout << "Шаг должен быть больше 0!" << endl;
+		cout << "Шаг должен быть больше 0!" << endl;
 		return;
 	}
 
