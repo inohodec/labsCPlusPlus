@@ -143,16 +143,16 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	
 	//сумма всех элементов массива и сумма первого и последнего элемента массива - динамический массив
-	//summArrayElements();
+	summArrayElements();
 
 	//сумма всех элементов массива и сумма первого и последнего элемента массива  - vector
-	//summArrayElementsVector();
+	summArrayElementsVector();
 
 	//количество элементов массива, больших 100 и сами эти элементы
-	//arrElementsBiggerThanHundred();
+	arrElementsBiggerThanHundred();
 
 	//вывод всех отрицательных элементов массива
-	//underZeroElements();
+	underZeroElements();
 
 	//замена всех отрицательных элементов массива на 0 и вывод этих элементов
 	replaseUnderZeroElements();
