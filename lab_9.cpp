@@ -77,9 +77,9 @@ void printEmp()
         {"Марія", "Коваленко", 4, 3000, 500, 0}
     };
 
-    for (int i = 0; i < empList.size(); ++i)
+    for (auto& emploee : empList)
     {
-		empList[i].sumToOut = empList[i].salary - empList[i].tax;
+        emploee.sumToOut = emploee.salary - emploee.tax;
 	}
 
     for (employees emp : empList)
@@ -182,7 +182,7 @@ void Products()
     cout << "Ціна за одиницю: " << products[minPriceId].price << endl;
 
     vector<Product> sortedProducts = shellSort(products);
-    for (const auto& product : sortedProducts) {
+    for (auto& product : sortedProducts) {
         cout << "\n№: " << product.id << ", Назва: " << product.name
             << ", Сума ціни: " << product.sumPrice
             << ", Кількість: " << product.quantity
