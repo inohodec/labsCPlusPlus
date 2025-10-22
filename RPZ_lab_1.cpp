@@ -20,7 +20,7 @@ int main()
 		return 1;
 	}
 
-	while (fabs(b - a) < 2 * eps) {
+	while (fabs(b - a) > 2 * eps) {
 		c = (a + b) / 2;
 		if (f(c) == 0.0) 
 			break; 
